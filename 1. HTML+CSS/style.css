@@ -1,0 +1,62 @@
+*{
+    font-size: 8px;
+}
+.container{
+    max-width: 200px;
+    margin: 0 auto;
+}
+.top{
+    display: grid;
+    grid-template-columns: 1fr 25px 23px;
+    background-color: #86a303;
+    color: white;
+    padding-left: 10px;
+}
+.inform{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.content-top, .inform{
+    margin: 0 10px;
+}
+.content .inform div{
+    display: grid;
+    grid-template-columns: 30px 2fr; 
+}
+.content-bottom{
+    display: flex;
+    justify-content: flex-end;
+}
+.form{
+    background-color: #f7f1e8;
+}
+.bold{
+    font-weight: bold;
+}
+.icon{
+    height: 25px;
+    float: left;
+    background: url(s-icon.png) no-repeat;
+}
+.human{
+    width: 23px;
+    background-position: -61px -4px;
+}
+.time{
+    width: 18px;
+    background-position: 0px -4px;
+}
+.box{width: 23px;
+    background-position: -18px 0;}
+.ava{
+    width: 23px;
+    background-position: -89px -4px;
+}
+.frend{
+    width: 23px;
+    background-position: -40px 0;
+}
+.link{
+    width: 25px;
+    background-position: -115px -4px;
+}
